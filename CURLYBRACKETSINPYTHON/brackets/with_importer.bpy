@@ -1,0 +1,23 @@
+if(x>y){
+print("Hello world")
+print("x is greater than y")
+}
+elif(x==y){
+print("x is equal to y")
+}
+else{
+print("x is less than y")
+}
+
+while(x == y){
+print("Its done")
+}
+
+def test(n){
+a, b = 0, 1
+while (a < n) {
+    print(a, end=' ')
+    a, b = b, a+b
+  }
+  print("Hello bro how r you")
+}
